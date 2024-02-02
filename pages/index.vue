@@ -1,6 +1,15 @@
 <template>
-	<main>test</main>
+	<div>
+		<MouseCoordinates />
+	</div>
 </template>
-<style scoped>
 
-</style>
+<script>
+import MouseCoordinates from '~/components/MouseCoordinates.vue'
+
+export default {
+	components: {
+		MouseCoordinates
+	}
+}
+</script>
